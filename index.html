@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokila P | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#7c3aed',
+                        secondary: '#06b6d4',
+                        dark: '#0f172a'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen font-sans">
+    <custom-navbar></custom-navbar>
+    <script src="components/navbar.js"></script>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://static.photos/workspace/1024x576/147')] opacity-20 bg-cover bg-center"></div>
+        <div class="container mx-auto px-6 py-24 z-10 text-center" data-aos="fade-up">
+            <div class="w-40 h-40 rounded-full bg-primary/20 mx-auto mb-8 overflow-hidden border-4 border-primary/50">
+                <img src="IMG_6913.JPG" alt="Kokila P" class="w-full h-full object-cover">
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold mb-4">Kokila <span class="text-primary">P</span></h1>
+            <h2 class="text-xl md:text-2xl font-medium mb-6 text-secondary">Aspiring Software Developer</h2>
+            <p class="max-w-2xl mx-auto text-lg mb-8 text-slate-300">Passionate about technology, innovation and Problem solving.</p>
+            <div class="flex justify-center gap-4">
+                <a href="https://www.linkedin.com/in/kokila-p-4a2996262/" class="p-3 rounded-full bg-primary/10 hover:bg-primary/20 transition-all">
+                    <i data-feather="linkedin" class="text-primary"></i>
+                </a>
+                <a href="mailto:kokilakeni@gmail.com" class="p-3 rounded-full bg-primary/10 hover:bg-primary/20 transition-all">
+                    <i data-feather="mail" class="text-primary"></i>
+                </a>
+                <a href="https://github.com/KokilaParvathi" class="p-3 rounded-full bg-primary/10 hover:bg-primary/20 transition-all">
+                    <i data-feather="github" class="text-primary"></i>
+                </a>
+                <a href="https://leetcode.com/u/_kokiila_/" class="p-3 rounded-full bg-primary/10 hover:bg-primary/20 transition-all">
+                    <i data-feather="code" class="text-primary"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-slate-800/50">
+        <div class="container mx-auto px-6" data-aos="fade-up">
+            <h2 class="text-3xl font-bold mb-12 text-center"><span class="text-primary">About</span> Me</h2>
+            <div class="max-w-3xl mx-auto bg-slate-800/50 p-8 rounded-xl border border-slate-700/50 shadow-lg">
+                <p class="text-lg leading-relaxed text-slate-300">
+                    To pursue a challenging and growth-oriented career where I can contribute my skills and knowledge to a reputed
+                    organization, while continuously learning new technologies, improving myself, and growing along with the team.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center" data-aos="fade-up">Technical <span class="text-primary">Skills</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Skill Cards -->
+                <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 shadow-lg" data-aos="zoom-in">
+                    <h3 class="text-xl font-semibold mb-4">Programming Languages</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">Java</span>
+                                <span class="text-sm text-slate-400">Intermediate</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-2.5">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">C</span>
+                                <span class="text-sm text-slate-400">Intermediate</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-2.5">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">Python</span>
+                                <span class="text-sm text-slate-400">Beginner</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-2.5">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 shadow-lg" data-aos="zoom-in" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold mb-4">Technical Concepts</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">OOPs</span>
+                                <span class="text-sm text-slate-400">Intermediate</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-2.5">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">DSA</span>
+                                <span class="text-sm text-slate-400">Intermediate</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-2.5">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">SQL</span>
+                                <span class="text-sm text-slate-400">Intermediate</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-2.5">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 shadow-lg" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold mb-4">Core Skills</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">Computer Networks</span>
+                                <span class="text-sm text-slate-400">Basic</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-2.5">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-sm font-medium">DBMS</span>
+                                <span class="text-sm text-slate-400">Intermediate</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-2.5">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-slate-800/50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center" data-aos="fade-up">Featured <span class="text-primary">Projects</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700/50 shadow-lg group hover:-translate-y-2 transition-all duration-300" data-aos="fade-up">
+                    <div class="h-48 bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center">
+                        <i data-feather="dollar-sign" class="w-16 h-16 text-primary group-hover:text-secondary transition-all"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Bank Management System</h3>
+                        <p class="text-slate-400 mb-4">Java application for account management with deposit/withdrawal functionality</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs">Java</span>
+                            <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs">OOP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700/50 shadow-lg group hover:-translate-y-2 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-48 bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center">
+                        <i data-feather="x" class="w-16 h-16 text-primary group-hover:text-secondary transition-all"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Tic-Tac-Toe Game</h3>
+                        <p class="text-slate-400 mb-4">Interactive 2D array-based game using Java Swing</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs">Java</span>
+                            <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs">Swing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700/50 shadow-lg group hover:-translate-y-2 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-48 bg-gradient-to-r from-primary/20 to-secondary/20 flex items-center justify-center">
+                        <i data-feather="activity" class="w-16 h-16 text-primary group-hover:text-secondary transition-all"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Muscle Disease Detection</h3>
+                        <p class="text-slate-400 mb-4">EMG-based analysis tool with 90%+ classification accuracy</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs">MATLAB</span>
+                            <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs">Biomedical</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center" data-aos="fade-up">Developer <span class="text-primary">Tools</span></h2>
+            <div class="flex flex-wrap justify-center gap-6">
+                <div class="flex flex-col items-center group" data-aos="zoom-in">
+                    <div class="w-16 h-16 bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700/50 group-hover:border-primary/50 transition-all">
+                        <i data-feather="code" class="text-primary group-hover:text-secondary transition-all"></i>
+                    </div>
+                    <span class="mt-2 text-sm">VS Code</span>
+                </div>
+                <div class="flex flex-col items-center group" data-aos="zoom-in" data-aos-delay="50">
+                    <div class="w-16 h-16 bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700/50 group-hover:border-primary/50 transition-all">
+                        <i data-feather="cpu" class="text-primary group-hover:text-secondary transition-all"></i>
+                    </div>
+                    <span class="mt-2 text-sm">Eclipse</span>
+                </div>
+                <div class="flex flex-col items-center group" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700/50 group-hover:border-primary/50 transition-all">
+                        <i data-feather="layout" class="text-primary group-hover:text-secondary transition-all"></i>
+                    </div>
+                    <span class="mt-2 text-sm">Figma</span>
+                </div>
+                <div class="flex flex-col items-center group" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="w-16 h-16 bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700/50 group-hover:border-primary/50 transition-all">
+                        <i data-feather="database" class="text-primary group-hover:text-secondary transition-all"></i>
+                    </div>
+                    <span class="mt-2 text-sm">Workbench</span>
+                </div>
+                <div class="flex flex-col items-center group" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700/50 group-hover:border-primary/50 transition-all">
+                        <i data-feather="server" class="text-primary group-hover:text-secondary transition-all"></i>
+                    </div>
+                    <span class="mt-2 text-sm">XAMPP</span>
+                </div>
+                <div class="flex flex-col items-center group" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="w-16 h-16 bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700/50 group-hover:border-primary/50 transition-all">
+                        <i data-feather="bar-chart-2" class="text-primary group-hover:text-secondary transition-all"></i>
+                    </div>
+                    <span class="mt-2 text-sm">MATLAB</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-slate-800/50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center" data-aos="fade-up">Education <span class="text-primary"></span></h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="relative" data-aos="fade-right">
+                    <div class="absolute left-5 h-full w-0.5 bg-primary/20 top-0"></div>
+                    
+                    <!-- Education Item 1 -->
+                    <div class="relative pl-16 pb-10">
+                        <div class="absolute left-0 top-0 w-10 h-10 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center">
+                            <i data-feather="award" class="text-primary"></i>
+                        </div>
+                        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700/50 shadow-lg">
+                            <h3 class="text-xl font-semibold mb-1">B.E Biomedical Engineering</h3>
+                            <p class="text-m text-slate-400">Bannari Amman Institute of Technology</p>
+                            <span class="text-sm text-slate-400">2022–2026</span>
+                            <p class="mt-2 text-slate-300">CGPA: 8.12</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Education Item 2 -->
+                    <div class="relative pl-16 pb-10">
+                        <div class="absolute left-0 top-0 w-10 h-10 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center">
+                            <i data-feather="book" class="text-primary"></i>
+                        </div>
+                        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700/50 shadow-lg">
+                            <h3 class="text-xl font-semibold mb-1">HSC</h3>
+                            <p class="text-s text-slate-400">Government Girls Higher Secondary School</p>
+                            <span class="text-sm text-slate-400">2021–2022</span>
+                            <p class="mt-2 text-slate-300">Percentage: 80.17%</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Education Item 3 -->
+                    <div class="relative pl-16">
+                        <div class="absolute left-0 top-0 w-10 h-10 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center">
+                            <i data-feather="book-open" class="text-primary"></i>
+                        </div>
+                        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700/50 shadow-lg">
+                            <h3 class="text-xl font-semibold mb-1">SSLC</h3>
+                            <p class="text-s text-slate-400">Government Girls Higher Secondary School</p>
+                            <span class="text-sm text-slate-400">2019–2020</span>
+                            <p class="mt-2 text-slate-300">Percentage: 86.8%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-20">
+        <div class="container mx-auto px-6 text-center" data-aos="fade-up">
+            <h2 class="text-3xl font-bold mb-6">Download My <span class="text-primary">Resume</span></h2>
+            <p class="max-w-2xl mx-auto text-lg mb-8 text-slate-300">Get a detailed overview of my education, skills, and projects.</p>
+            <a href="Kokila.pdf" download class="inline-flex items-center px-8 py-3 bg-primary text-white rounded-full font-medium hover:bg-primary/90 transition-all shadow-lg">
+                <i data-feather="download" class="mr-2"></i> Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-800/50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center" data-aos="fade-up">Get In <span class="text-primary">Touch</span></h2>
+            <div class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="space-y-6" data-aos="fade-right">
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 rounded-full bg-primary/10">
+                            <i data-feather="mail" class="text-primary"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">Email</h3>
+                            <a href="mailto:kokila.bm22@bitsathy.ac.in" class="text-slate-400 hover:text-primary transition-all">kokila.bm22@bitsathy.ac.in</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 rounded-full bg-primary/10">
+                            <i data-feather="linkedin" class="text-primary"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold">LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/kokila-p-4a2996262/" target="_blank" class="text-slate-400 hover:text-primary transition-all">linkedin.com/in/kokila-p-4a2996262/</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800 rounded-xl p-8 border border-slate-700/50 shadow-lg" data-aos="fade-left">
+                    <h3 class="text-xl font-semibold mb-4">Send me a message</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium mb-1">Name</label>
+                            <input type="text" id="name" class="w-full bg-slate-700/50 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium mb-1">Email</label>
+                            <input type="email" id="email" class="w-full bg-slate-700/50 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium mb-1">Message</label>
+                            <textarea id="message" rows="4" class="w-full bg-slate-700/50 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"></textarea>
+                        </div>
+                        <button type="submit" class="px-6 py-2 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-all">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+    <script src="components/footer.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: false
+        });
+    </script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
